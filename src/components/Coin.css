@@ -1,0 +1,31 @@
+.Coin {
+    padding: 5px 0;
+    border-bottom: 2px solid grey;
+    display: flex;
+    margin: 5px 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Coin h5 {
+    font-size: 24px;
+}
+.Coin img {
+    width: 50px;
+    height: 50px;
+}
+.Coin__link {
+    text-decoration: none;
+    color: #000;
+}
+.Coin__link:hover {
+    text-decoration: underline;
+}
+.Coin__text {
+    max-width: 20%;
+    font-size: 17px;
+}
+.Coin h5, .Coin__text p {
+    margin: 0;
+    padding: 0;
+}

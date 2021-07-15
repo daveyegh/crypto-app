@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.coindetails-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.coindetails-top {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.row img {
+    margin: 0 10px 0 0;
+}
+.coindetails-top__name {
+    margin: 10px;
+}
+.coindetails-top__symbol {
+    font-size: 19px;
+    background-color: #f1f1f1;
+    padding: 3px 10px;
+    border-radius: 10px;
+    color: #000;
+    margin: 0 10px;
+}
+.coin-row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.coindetails-top__rank {
+    background-color: grey;
+    padding: 3px 10px;
+    border-radius: 20px;
+    color: #fff ;
+}
+.coindetails__market-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+.coindetails-top__market-current {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-right: 16px;
+}
+.coindetails-top__market-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.coindetails-top__market-low-high {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coindetails__market-supply span  {
+    display: block;
+    font-size: 18px;
+}
+.coindetails__chart {
+    padding: 20px 0;
+}
+.coindetails__chart-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    align-items: center;
+}

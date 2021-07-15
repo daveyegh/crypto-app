@@ -1,0 +1,22 @@
+.card {
+    width: 18rem;
+    margin: 15px;
+}
+.news__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+}
+.news__title {
+    font-size: 45px;
+    margin: 5px 0;
+}
+.news__items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
