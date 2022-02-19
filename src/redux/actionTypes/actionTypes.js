@@ -1,0 +1,8 @@
+export const COIN_INFO = 'COIN_INFO';
+export const COIN_DETAILS = 'COIN_DETAILS';
+export const COIN_CHART = 'COIN_CHART';
+export const CHART_PERIOD = 'CHART_PERIOD';
+export const NEWS = 'NEWS';
+export const ADD_TO_WATCHLIST = 'ADD_TO_WATCHLIST'
+export const DELETE_FROM_WATCHLIST = 'DELETE_FROM_WATCHLIST';
+export const UPDATE_WATCHLIST_COINS = 'UPDATE_WATCHLIST_COINS';

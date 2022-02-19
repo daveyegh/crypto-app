@@ -1,5 +1,5 @@
 .card {
-    width: 18rem;
+    border: none;
     margin: 15px;
 }
 .news__text {
@@ -13,10 +13,7 @@
     font-size: 45px;
     margin: 5px 0;
 }
-.news__items {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    margin: 0 auto;
+
+.card img {
+    max-width: 100%;
 }

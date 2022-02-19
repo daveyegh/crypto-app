@@ -1,23 +1,17 @@
-import axios from 'axios';
 import React from 'react';
-import { useState } from 'react';
 import { useEffect } from 'react';
 
-import './NewsPage.css';
+import './News.css';
+import {useDispatch, useSelector} from "react-redux";
+import {getNews} from "../../redux/actions/actions";
 
 function News() {
-    const [newsData, setNews] = useState(null);
+    const dispatch = useDispatch()
+    const { news } = useSelector(store => store.news);
+
     useEffect(() => {
-        getNews();
-    }, []);
-
-    const getNews = async () => {
-        const result = await axios.get('https://api.coinstats.app/public/v1/news?skip=10&limit=100');
-        const news = await result.data;
-        setNews(news)
-    }
-
-    console.log(newsData)
+        dispatch(getNews());
+    }, [])
 
     return (
         <div className="news">
@@ -33,7 +27,7 @@ function News() {
             </div>
             <div className="news__items">
                 {
-                    newsData?.news.map(item => {
+                    news?.map(item => {
                         return <div class="card" key={item.id}>
                             <img class="card-img-top" src={!item.imgURL ? 'https://www.entspecialistspc.com/wp-content/uploads/2018/12/no-image.jpg': item.imgURL} />
                             <div class="card-body">

@@ -9,3 +9,8 @@
     padding: 10px;
     font-family: 'Roboto';
 }
+
+.Coins__text {
+    text-align: center;
+    padding: 20px 0;
+}

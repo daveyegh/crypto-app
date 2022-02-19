@@ -1,0 +1,29 @@
+.watchlist-sidebar {
+    position: fixed;
+    display: block;
+    width: 50vh;
+    height: 100%;
+    right: 0;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.36);
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.watchlist-sidebar__items {
+    margin: 40px 0;
+    padding: 0;
+}
+
+.watchlist-sidebar__item {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.watchlist-sidebar__img img {
+    width: 50px;
+    height: 50px;
+    margin-right: 9px;
+}

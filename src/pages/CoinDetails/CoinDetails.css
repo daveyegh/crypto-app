@@ -76,3 +76,12 @@ body {
     padding: 20px 0;
     align-items: center;
 }
+
+.coindetails__links-row {
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.coindetails__links-row .social-icon {
+    margin: 0 7px;
+}

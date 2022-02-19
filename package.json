@@ -2,10 +2,9 @@
   "name": "crypto-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://daveyegh.github.io/react-crypto-app",
+  "homepage": "https://daveyegh.github.io/react-crypto-app/",
   "dependencies": {
     "@material-ui/core": "^4.12.1",
-    "@nivo/core": "^0.72.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -17,11 +16,18 @@
     "react-chartjs-2": "^3.0.3",
     "react-dom": "^17.0.2",
     "react-html-parser": "^2.0.2",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-social-icons": "^5.11.0",
     "react-spinners": "^0.11.0",
+    "react-transition-group": "^4.4.2",
     "reactstrap": "^8.9.0",
-    "web-vitals": "^1.1.2"
+    "redux": "^4.1.2",
+    "redux-loading-promise-middleware": "^2.0.0",
+    "redux-thunk": "^2.4.1",
+    "web-vitals": "^1.1.2",
+    "web3": "^1.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
